@@ -4,4 +4,12 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-pixel.py	pixel.py	1;"	kind:file	line:1
+GPIO	python_src/light.py	/^import RPi.GPIO as GPIO$/;"	kind:namespace	line:1
+Light	python_src/light.py	/^class Light(object):$/;"	kind:class	line:3
+RPi	python_src/light.py	/^import RPi.GPIO as GPIO$/;"	kind:namespace	line:1
+__init__	python_src/light.py	/^    def __init__(self, channel, direction):$/;"	kind:member	line:5
+_init_input	python_src/light.py	/^    def _init_input(self):$/;"	kind:member	line:23
+_init_output	python_src/light.py	/^    def _init_output(self):$/;"	kind:member	line:20
+high	python_src/light.py	/^    def high(self):$/;"	kind:member	line:26
+light.py	python_src/light.py	1;"	kind:file	line:1
+low	python_src/light.py	/^    def low(self):$/;"	kind:member	line:29
